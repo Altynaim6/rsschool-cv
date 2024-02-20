@@ -32,6 +32,17 @@ p, li {
 a {
     color: #4c35bd;
 }
-#change-name{
-    color:#00539f;
+#change-name {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0 15px 15px 0;
+	color: #2f16ee;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	cursor: pointer;
+	
 }
+
