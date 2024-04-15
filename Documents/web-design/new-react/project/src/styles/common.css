@@ -1,0 +1,15 @@
+:root {
+    --logoColor: #1a4035;
+    --yellowColor: #d79b43;
+    --footerColor: #114a37;
+    --textColor: #000;
+}
+
+body {
+    color: var( --logoColor);
+    color: var( --footerColor);
+    color: var( --textColor);
+    color: var( --yellowColor);
+    
+}
+ 

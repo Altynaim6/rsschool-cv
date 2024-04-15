@@ -1,0 +1,70 @@
+.hero_section{
+    margin-bottom: 63px;
+    background-image: url('./../../img//icons//background-img.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 150px;
+  }
+
+.hero_content {
+    /* background-image: url(backgroundImg);  */
+    margin-top: -5px;
+    display: flex;
+    padding: 40px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero_title1{
+    font-family: 'DM Serif Text';
+    font-size: 32px;
+}
+.hero_title2{
+    font-family: 'Amita';
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--footerColor);
+}
+
+.hero_desc{
+    color: var(--textColor);
+    text-align: justify;
+}
+.hero_text{
+    width: 40%;
+    text-align: left;
+    margin: o auto;
+}
+
+.hero_img {
+    display: flex;
+}
+.hero_img_mosque {
+    width: 200px;
+    height: auto;
+    border-radius: 40px 40px 70px 30px;
+
+}
+
+.hero_img_quran {
+    width: 170px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 30px;
+}
+.hero_img_reading {
+    width: 170px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 30px;
+}
+.hero_quran_read img{
+    display: block;
+    justify-content: space-between;
+    margin: 20px;
+}
