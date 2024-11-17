@@ -42,3 +42,14 @@ My top priority is my studies in my chosen specialty. I want to excel in my work
 - **Russian**: Native
 - **English**: Intermediate
 - **German**: Pre-intermediate
+
+## My Education
+
+### School #2 (2011-2022)
+- **Graduation Certificate**: Grade 11
+
+### Ala-Too International University (2022-Present)
+- **Degree**: In process (Computer Engineering)
+
+### Codeinfinity Course (2024)
+- **Degree**: In process (JavaScript)
