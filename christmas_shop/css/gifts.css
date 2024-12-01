@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 82px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 8px;
+}
+
+.logo a {
+    padding: 8px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.snowflake {
+    width: 24px;
+    height: 24px;
+}
+
+.logo-text {
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(24, 28, 41, 1);
+}
+
+.items,
+.item-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.item-text a {
+    padding: 12px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    color: rgba(24, 28, 41, 1);
+}
+
+.item-text a:hover {
+    background-color: rgba(255, 70, 70, 0.1);
+    border-radius: 12px;
+    color: rgba(255, 70, 70, 1);
+}
+
+
+.item-text-gifts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.item-text-gifts a {
+    padding: 12px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    color: rgba(24, 28, 41, 1);
+}
+
+.hover a:hover {
+    background-color: rgba(255, 70, 70, 0.1);
+    border-radius: 12px;
+    color: rgba(255, 70, 70, 1);
+}
+
+.gifts {
+    position: relative;
+    background-color: rgba(255, 70, 70, 1);
+    border-radius: 20px 20px;
+}
+
+.gifts_garland_img {
+    position: absolute;
+    width: 100%;
+}
+
+.gifts_garland_img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gift-container {
+    padding-top: 60px;
+}
+
+.gifts_h1 {
+    font-family: "Montserrat", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.18em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.tabs,
+.tabs-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.default-tab {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
+
+.tabs-item a {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.inactive a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 0 60px 0;
+}
+
+
+.gift-card {
+    background-color: rgba(236, 243, 248, 1);
+    width: 310px;
+    height: 342px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.gift-card:hover h3 {
+    color: rgba(255, 70, 70, 1);
+}
+
+.gift-info {
+    font-family: "Montserrat", serif;
+    height: 112px;
+    padding: 20px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+
+.gift-category {
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+}
+
+.gift-info h3 {
+    font-size: 16px;
+    line-height: 24.32px;
+    letter-spacing: 0.08em;
+    color: rgba(24, 28, 41, 1);
+    padding-top: 8px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 60px 82px;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card {
+    flex: 1;
+    min-width: 417px;
+    max-height: 214px;
+    background-color: rgba(236, 243, 248, 1);
+    border-radius: 20px;
+    color: rgba(24, 28, 41, 1);
+    padding: 20px 0;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card:hover .card-header {
+    color: rgba(255, 70, 70, 1);
+}
+
+.card:hover .card-subheader {
+    color: rgba(255, 70, 70, 1);
+}
+
+.icon-container {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+.content {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(24, 28, 41, 1);
+}
+
+.card-header {
+    font-size: 24px;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+}
+
+.card-subheader {
+    font-size: 16px;
+    line-height: 24.32px;
+    letter-spacing: 0.08em;
+    padding-top: 12px;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    margin-top: 60px;
+    text-align: center;
+    color: rgba(24, 28, 41, 1);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.social-icon svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    color: rgba(24, 28, 41, 1);
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social-icon:hover svg {
+    color: rgba(255, 70, 70, 1);
+}
+
+.copyright {
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.68px;
+    text-align: center;
+    color: rgba(24, 28, 41, 1);
+    padding-bottom: 12px;
+}
+
+.school-link {
+    font-family: "Allura", cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: rgba(24, 28, 41, 1);
+}
+
+.school-link:hover {
+    color: rgba(255, 70, 70, 1);
+}
+
+@media (max-width: 1400px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
